@@ -34,7 +34,7 @@ async function getDiscordId(robloxId) {
 }
 
 // ---- Main Route ----
-app.get('/roles', async (req, res) => {
+app.get('/getroles', async (req, res) => {
 
     // 1. Check API key
     if (req.headers['apikey'] !== process.env.API_KEY) {
